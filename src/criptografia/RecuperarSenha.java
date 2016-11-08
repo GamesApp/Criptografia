@@ -20,7 +20,7 @@ public class RecuperarSenha {
              Email email = new SimpleEmail();
                 email.setHostName("smtp.googlemail.com");
                 //email.setSmtpPort(465);
-                email.setAuthentication("gamesappifsul@gmail.com", "galinhapintadinha123");
+                email.setAuthentication("contatogamesapp@gmail.com", "gamesifsul");
                 email.setSSLOnConnect(true);
                 email.setFrom("user@gmail.com");
                 email.setSubject("Recuperação de senha GamesApp ");
